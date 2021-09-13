@@ -18,7 +18,7 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="https://images.unsplash.com/photo-1561426802-392f5b6290cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          src="https://images.unsplash.com/photo-1623595289196-007a22dd8560?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3JpbGFua2F8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
         <p>
@@ -28,11 +28,17 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
         <ul className="sidebarList">
-          {cats.map((c) => (
-            <Link to={`/?cat=${c.name}`} className="link">
-            <li className="sidebarListItem">{c.name}</li>
-            </Link>
-          ))}
+          {/* {cats.map((c) => ( */}
+            {/* <Link to={`/?cat=${c.name}`} className="link"> */}
+            {/* <li className="sidebarListItem">{c.name}</li> */}
+            {/* </Link> */}
+          {/* ))} */}
+          <li className="sidebarListItem">WILD</li>
+                        <li className="sidebarListItem">THRILLS</li>
+                        <li className="sidebarListItem">BLISS</li>
+                        <li className="sidebarListItem">PRISTINE</li>
+                        <li className="sidebarListItem">HERITAGE</li>
+                        <li className="sidebarListItem">SCENIC</li>
         </ul>
       </div>
       <div className="sidebarItem">

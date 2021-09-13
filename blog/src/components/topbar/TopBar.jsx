@@ -13,10 +13,10 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <i className="topIcon fab fa-facebook-square"></i>
-        <i className="topIcon fab fa-twitter-square"></i>
-        <i className="topIcon fab fa-pinterest-square"></i>
-        <i className="topIcon fab fa-instagram-square"></i>
+      <span>Select Language <i class="fas fa-caret-down"></i> </span> &nbsp; &nbsp; &nbsp; &nbsp;
+        <span>Torisum Hotline:1912 </span> 
+       
+
       </div>
       <div className="topCenter">
         <ul className="topList">
@@ -30,11 +30,7 @@ export default function TopBar() {
               ABOUT
             </Link>
           </li>
-          <li className="topListItem">
-            <Link className="link" to="/">
-              CONTACT
-            </Link>
-          </li>
+          
           <li className="topListItem">
             <Link className="link" to="/write">
               WRITE
